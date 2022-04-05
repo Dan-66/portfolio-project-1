@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 
 body {
@@ -12,6 +13,7 @@ body {
     font-weight: 300;
     color: #fafafa;
     background-color: black;
+
 }
 
 h1 {
@@ -30,14 +32,16 @@ h1, h2 {
 
 #logo {
     float: left;
+    font-size: 400%;
     margin-left: 2.5%;
 }
 
 /* navigation links */
 #menu {
-    font-size: 180%;
-    letter-spacing: 2px;
+    font-size: 160%;
+    letter-spacing: 1px;
     float: right;
+    
 }
 
 #logo, #menu {
@@ -47,7 +51,8 @@ h1, h2 {
 #menu li {
     list-style-type: none;
     float: left;
-    margin-right: 2.5%;
+    right: 0;
+    margin: 0 auto;
 }
 
 #menu a {
@@ -102,6 +107,7 @@ footer a:hover {
     
     
     
+    
 }
 #enter-image {
     background: url("../images/enterimage.jpg") no-repeat center center;
@@ -130,6 +136,7 @@ footer a:hover {
     border-radius: 25px;
     border: 4px solid #9932cc;
     padding-bottom: 20px;
+    text-align: center;
 }
 #games-image {
     background: url("../images/gamesimage.jpg") no-repeat center center;
@@ -144,7 +151,7 @@ footer a:hover {
 #family {
     height: 400px;
     width: 100%;
-    margin: auto;
+    margin: 2.5%;
     
 }
 
@@ -157,7 +164,7 @@ footer a:hover {
     border: 4px solid #9932cc;
     text-align: center;
     position: relative;
-    padding-right: 5%;
+    
     padding-bottom: 20px;
 }
 #family-image {
@@ -170,6 +177,115 @@ footer a:hover {
     border: 4px solid #9932cc;
 }
 
+#retro-games {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    
+    
+}
+
+#retro-games-text {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 45px;
+    border-radius: 25px;
+    border: 4px solid #9932cc;
+    text-align: center;
+    position: relative;
+    padding-right: 5%;
+    position: absolute;
+    padding-bottom: 20px;
+    
+    
+    
+    
+}
+#retro-games-image {
+    background: url("../images/retro.jpeg") no-repeat center center;
+    height: 400px;
+    width: 60%;
+    float: right;
+    background-size: cover;
+    border-radius: 25px;
+    border: 4px solid #cc7c32;
+    
+}
+
+#multiplayer {
+    height: 400px;
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+#multiplayer-text {
+    width: 30%;
+    float: right;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 25px;
+    border: 4px solid #9932cc;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#multiplayer-image {
+    background: url("../images/multiplayer.jpg") no-repeat center center;
+    height: 400px;
+    width: 66%;
+    float: left;
+    background-size: cover;
+    border-radius: 25px;
+    border: 4px solid #9932cc;
+}
+
+#mini-golf {
+    height: 400px;
+    width: 100%;
+    margin: 2.5%;
+    
+}
+
+#mini-golf-text {
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+    padding-left: 45px;
+    border-radius: 25px;
+    border: 4px solid #9932cc;
+    text-align: center;
+    position: relative;
+    
+    padding-bottom: 20px;
+}
+#mini-golf-image {
+    background: url("../images/minigolf.jpeg") no-repeat center center;
+    height: 400px;
+    width: 60%;
+    float: right;
+    background-size: cover;
+    border-radius: 25px;
+    border: 4px solid #9932cc;
+}
+
 footer {
     height: 200px;
+    background-color: #cc7c32;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;    
+}
+.social-media i {
+    font-size: 40px;
+    padding: 40px;
+    margin: 2%;
+    
 }
