@@ -25,13 +25,10 @@ h2 {
 h1, h2 {
     letter-spacing: 3px;
 }
-section {
-    height: 700px;
-}
 
 #logo {
     float: left;
-    margin-left: 5%;
+    margin-left: 2.5%;
 }
 
 /* navigation links */
@@ -39,4 +36,51 @@ section {
     font-size: 180%;
     letter-spacing: 2px;
     float: right;
+}
+
+#logo, #menu {
+    line-height: 90px;
+}
+
+#menu li {
+    list-style-type: none;
+    float: left;
+    margin-right: 2.5%;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #fafafa;
+}
+
+footer a:hover {
+    color: #fafafa;
+}
+
+#main-image {
+    background: url("../images/heroimage2.webp") no-repeat center center;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+#enter {
+    height: 600px;
+    width: 100%;
+    
+}
+
+#enter-text {
+    width: 33%;
+    float: left;
+}
+#enter-image {
+    background: url("../images/enter.jpg") no-repeat center center;
+    height: 600px;
+    width: 66%;
+    float: right;
+    background-size: contain;
 }
