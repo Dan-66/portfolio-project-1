@@ -62,13 +62,13 @@ footer a:hover {
 
 #main-image {
     background: url("../images/heroimage2.webp") no-repeat center center;
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-size: cover;
 }
 
 #enter {
-    height: 600px;
+    height: 400px;
     width: 100%;
     
 }
@@ -78,9 +78,49 @@ footer a:hover {
     float: left;
 }
 #enter-image {
-    background: url("../images/enter.jpg") no-repeat center center;
-    height: 600px;
+    background: url("../images/enterimage.jpg") no-repeat center center;
+    height: 400px;
     width: 66%;
     float: right;
-    background-size: contain;
+    background-size: cover;
+}
+
+#games {
+    height: 400px;
+    width: 100%;
+    
+}
+
+#games-text {
+    width: 33%;
+    float: left;
+}
+#games-image {
+    background: url("../images/gamesimage.jpg") no-repeat center center;
+    height: 400px;
+    width: 66%;
+    float: left;
+    background-size: cover;
+}
+
+#family {
+    height: 400px;
+    width: 100%;
+    
+}
+
+#family-text {
+    width: 33%;
+    float: left;
+}
+#family-image {
+    background: url("../images/family.jpg") no-repeat center center;
+    height: 401px;
+    width: 66%;
+    float: right;
+    background-size: cover
+}
+
+footer {
+    height: 200px;
 }
