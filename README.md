@@ -50,14 +50,11 @@ The FunderDome is a gamers paradise featuring everything from retro video games 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I opted for a simple layout and easily recognisable and accessible colour palette/scheme that would fit the retro gaming feel of the business.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I have tested all logo, nav bar and footer links and they are working as they should. The sign up form allows the user to submit full name and email address and is prompted if fields not filled or no email address recognised before submission. The checkbox is optional and I used the formdump link to post the entered information to the server for back edn purposes and review.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+The website seems responsive on all the sizes stated in the media queries in style.css although there is certainly room for further inprovement and fine tuning. On desktop/laptop screens text and images vary diagonally but on tablets and mobile I opted for a more centered approach to avoid major styling issues and user confusion.
 
 
 
@@ -80,7 +77,8 @@ If this section grows too long, you may want to split it off into a separate fil
 [css validation](assets/images/cssvalidator.PNG)
 
 ### Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+The footer strays from the right hand side of the webpage at 484px wide and would need to be further assessed and resolved.
 
 ## Deployment
 
@@ -92,7 +90,6 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
     * The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
 ## Credits
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 Some of the content and layout ideas were inspired by the Love Running project. Supplementary information and troubleshooting was gathered via [W3 Schools](https://www.w3schools.com/) and [stackoverflow](https://stackoverflow.com/).
 
