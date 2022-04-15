@@ -9,7 +9,7 @@
     <meta name="keywords" content="Funder-Dome, games, gaming club, arcade, mini golf, dublin, ireland">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Document</title>
+    <title>The FunderDome</title>
 </head>
 
 <body>
@@ -20,15 +20,15 @@
                 <nav>
                     <ul id="menu">
                         <li>
-                            <a href="index.html" >Home <i class="fa-solid fa-house"></i>  </a>
+                            <a href="index.html">Home <i class="fa-solid fa-house"></i> </a>
                         </li>
 
                         <li>
-                            <a href="games.html" >Games <i class="fa-solid fa-gamepad-modern"></i>  </a>
+                            <a href="games.html">Games <i class="fa-solid fa-gamepad"></i></i> </a>
                         </li>
 
                         <li>
-                            <a href="signup.html" class="current">Sign Up <i class="fa-solid fa-user-plus"></i>  </a>
+                            <a href="signup.html" class="current">Sign Up <i class="fa-solid fa-user-plus"></i> </a>
                         </li>
                     </ul>
 
@@ -36,34 +36,36 @@
             </nav>
     </header>
 
-    <div>
-        <label for="fname">
-            <input id="fname" type="text">
+    <section id="sign-up">
+        <!-- action attribute from Love Running Project utilised to post the data to server -->
+        <form method="post" action="https://formdump.codeinstitute.net/">
+        <div>
+            <label for="fname">First Name</label><br>
+            <input id="fname" type="text" name="first-name" required>
 
-    </div>
+        </div>
 
-    <div>
-        <label for="lname">
-            <input id="lname" type="text">
+        <div>
+            <label for="lname">Last Name</label><br>
+            <input id="lname" type="text" name="last-name" required>
 
-    </div>
+        </div>
 
-    <div>
-        <label for="email"></label>
-        <input id="email" type="email">
+        <div>
+            <label for="email"></label>Email Address</label><br>
+            <input id="email" type="email" name="email-address" required>
 
-    </div>
+        </div>
+        <input id="updates" type="checkbox">
+        <label for="updates">Check this box to receive news and offers from Funder-Dome!</label>
+        <div class="register">
+            <input type="submit" value="Join the Family!">
 
-    <div>
-        <input type="submit" value="Join the Family!">
+        </div>
 
-    </div>
+    </form>
 
-    <input id="checkbox" type="checkbox">
-    <label for="checkbox">Tick the box to receive additional monthly offers and discounts!
-
-    </label>
-
+    </section>
 </body>
 <footer>
     <ul class="social-media">
@@ -85,7 +87,9 @@
         </li>
 
     </ul>
-</footer>
+
+    <div>Address: Phoenix Park, Castleknock (part of Phoenix Park), Dublin, D08 E1W3
+        Phone: (01) 617 1000</div>
 
 <script src="https://kit.fontawesome.com/80b4ed5fcb.js" crossorigin="anonymous"></script>
 
