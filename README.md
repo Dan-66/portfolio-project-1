@@ -87,7 +87,7 @@ The footer strays from the right hand side of the webpage at 484px wide and woul
     * From the Code and Animation section, select the Pages option
     * From the Source section drop-down menu, select the Main Branch
     * Once the Main Branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-    * The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+    * The live link can be found here - https://dan-66.github.io/portfolio-project-1/
 
 ## Credits
 
