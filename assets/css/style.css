@@ -12,7 +12,7 @@ body {
     font-family: Rubik, sans-serif;
     font-weight: 300;
     color: #fafafa;
-    background-color: black;
+    background-color:blue;
     
 
 }
@@ -87,12 +87,15 @@ footer a:hover {
 /*--Main Page Content--*/
 /*---------------------*/
 section{
-    height: 350px;
+    height: 368px;
     width: 100%;
     margin: auto;   
+    background-color:yellow;
+    border: 2px solid red;
 }
 
-.textBox{
+.text-box{
+    height:140px;
     width: 400px;
     float: left;
     padding-top: 20px;
@@ -104,32 +107,24 @@ section{
     padding-right: 2.5%;
     padding-bottom: 20px;
    } 
+#games-text{
+    float:right;
+    margin:0 1.5% 0 0;
+}
 
 .medium-images{
+    height:360px;
+    width: 60%;
     float:left;
     margin:0 0 0 0;
     height:360px;
     width: 60%;
     border-radius: 25px;
 }
-
-
-/*
-#enter-text {
-    width: 31.5%;
-    float: left;
-    padding-top: 20px;
-    padding-left: 45px;
-    border-radius: 25px;
-    border: 4px solid #9932cc;
-    text-align: center;
-    position: relative;
-    padding-right: 2.5%;
-    position: absolute;
-    padding-bottom: 20px;
-    margin: 0 auto;
+#games-image{
+    float:right;
 }
-    */
+
 
     /*----This is the Style for all text boxes--*/
     /*------------------------------------------*/
@@ -145,93 +140,88 @@ section{
     border: 4px solid #cc7c32;
 }
 
-
-/*
-#games-text {
-    width: 31.5%;
-    float: right;
-    padding-top: 20px;
-    padding-left: 45px;
-    border-radius: 25px;
-    border: 4px solid #9932cc;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto;
-    
-}
-*/
-
 #games-image {
     background: url("../images/gamesimage.jpg") no-repeat center center;
-    height: 350px;
-    width: 60%;
     background-size: cover;
     border-radius: 25px;
     border: 4px solid #32cca5;
 }
 
 
-/*
-#family-text {
-    width: 31.5%;
-    float: left;
-    padding-top: 20px;
-    padding-left: 45px;
-    border-radius: 25px;
-    border: 4px solid #9932cc;
-    text-align: center;
-    position: relative;
-    padding-right: 2.5%;
-    padding-bottom: 20px;
-    clear: both;
-}
-*/
-
 #family-image {
     background: url("../images/family.jpg") no-repeat center center;
-    height: 350px;
-    width: 60%;
     background-size: cover;
     border-radius: 25px;
     border: 4px solid #cc3232;
     
 }
-/*-----Game Page Content------*/
-/*---------------------------*/
-#retro-games {
-    height: 350px;
-    width: 100%;
-    margin: auto;
-    position: relative;
+/*----This is footer content---*/
+/*-----------------------------*/
+footer {
+    float:left;
+    height: 200px;
+    width:100%;
+    background-color: #cc7c32;
+
+   bottom:auto;
+    clear: both;
+
+}
+#links-box{
+    height: 100px;
+    width:80%;
+    background-color: black;
+    margin-left: 10%;
+}
+
+.social-media {
+    height: 100px;
+    width:100%;
+    background-color: #32cca5;
+    margin: 5% 0 0 0;
+}
+
+
+.social-media li {
+    height: 60px;
+    width:20%;
+    margin: 0 0 0 3.8%;
+    background-color:#cc3232;
+    display: inline-block;  
+    text-align: center;  
+}
+.social-media i {
+    font-size: 40px;
+    padding: 5px;
+    margin: 5% 10%;
+    
+}
+#foot-text {
+    text-align: center;
+    bottom: 0;
+    font-family: Rubik, sans-serif;
+    color: #9932cc;
+    font-weight: 900;
     
     
 }
+/*-----Game Page Content------*/
+/*---------------------------*/
+
+
 
 #retro-games-text {
-    width: 30%;
-    float: left;
+
     padding-top: 20px;
     padding-left: 45px;
-    border-radius: 25px;
     border: 4px solid #9932cc;
     text-align: center;
-    position: relative;
     padding-right: 5%;
-    position: absolute;
-    padding-bottom: 20px;
-    
-    
-    
-    
+    padding-bottom: 20px;   
 }
 #retro-games-image {
     background: url("../images/retro.jpeg") no-repeat center center;
-    height: 350px;
-    width: 60%;
-    float: right;
     background-size: cover;
-    border-radius: 25px;
     border: 4px solid #cc7c32;
     
 }
@@ -239,28 +229,19 @@ section{
 #multiplayer {
     height: 350px;
     width: 100%;
-    position: relative;
-    
-    
 }
 
 #multiplayer-text {
-    width: 30%;
     float: right;
     padding-top: 20px;
     padding-left: 20px;
     border-radius: 25px;
     border: 4px solid #9932cc;
-    
     text-align: center;
 }
 #multiplayer-image {
     background: url("../images/multiplayer.jpg") no-repeat center center;
-    height: 350px;
-    width: 66%;
-    float: left;
     background-size: cover;
-    border-radius: 25px;
     border: 4px solid #32cca5;
 }
 
@@ -292,6 +273,7 @@ section{
     border-radius: 25px;
     border: 4px solid #cc3232;
 }
+
 /*-----Form content-----*/
 /*----------------------*/
 #sign-up {
@@ -330,56 +312,29 @@ input[type=submit]{
     letter-spacing: 1px;
     
 }
-/*----This is footer content---*/
-/*-----------------------------*/
-footer {
-    height: 200px;
-    background-color: #cc7c32;
-   /* bottom: 0;
-    clear: both;
-    */
-}
-
-footer > div {
-    text-align: center;
-    bottom: 0;
-    font-family: Rubik, sans-serif;
-    color: #9932cc;
-    font-weight: 900;
-    
-    
-}
-
-footer a:hover {
-    color: #fafafa;
-}
-
-.social-media {
-    text-align: center;
-    margin-bottom: 30px;
-    padding-top: 33px;
-    padding-bottom: auto;
-    width: 100%;
-}
-
-.social-media li {
-    display: inline;    
-}
-.social-media i {
-    font-size: 40px;
-    padding: 5px;
-    margin: 30px 10%;
-    
-}
 /*----Media Queries---*/
 /*-------------------*/
 @media screen and (max-width: 1300px) {
+    section{
+        height:547.5px;
+        border: 2px solid red;
+    }
+    #games-text{
+        float:left;
+        margin:0 0 0 30%;
+    }
     .textBox{
-        margin:0 0 0 35%;
+        margin:0 0 0 30%;
+    }
+    
+    #games-image{
+        float:left;
     }
     .medium-images{
-    margin:0 0 0 20.5%;
+    margin:0 0 0 19.5%;
     }
+
+    
 }
 
 @media screen and (max-width: 980px) {
