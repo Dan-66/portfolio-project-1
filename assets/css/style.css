@@ -1,28 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Russo+One&family=Rubik&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
-    border: none;
-    
+    border: none;   
 }
-
 body {
     font-family: Rubik, sans-serif;
     font-weight: 300;
     color: #fafafa;
-    background-color:blue;
-    
-
+    background-color: black;
 }
-
 h1 {
     font-family: Russo One, sans-serif;
-    
-
 }
-
 h2 {
     text-transform: uppercase;
 }
@@ -30,13 +20,11 @@ h1, h2 {
     letter-spacing: 3px;
     color: #9932cc;
 }
-
 #logo {
     float: left;
     font-size: 400%;
     margin-left: 2.5%;
 }
-
 /* navigation links */
 #menu {
     font-size: 160%;
@@ -44,11 +32,9 @@ h1, h2 {
     float: right;
     
 }
-
 #logo, #menu {
     line-height: 100px;
 }
-
 #menu li {
     list-style-type: none;
     float: left;
@@ -56,28 +42,23 @@ h1, h2 {
     margin: 0 auto;
     padding: 0 20px;
 }
-
 #menu a {
     text-decoration: none;
     color: #9932cc;
 }
-
 #menu a:hover {
     color: #fafafa;
     border-bottom: 4px solid #fafafa;
 }
-
 .current {
     border-bottom: 4px solid #9932cc;
 }
-
 .current a:hover {
     border-bottom: 4px solid #fafafa;
 }
 footer a:hover {
     color: #fafafa;
 }
-
 #main-image {
     background: url("../images/heroimage2.webp") no-repeat center center;
     height: 300px;
@@ -90,10 +71,7 @@ section{
     height: 368px;
     width: 100%;
     margin: auto;   
-    background-color:yellow;
-    border: 2px solid red;
 }
-
 .text-box{
     height:140px;
     width: 400px;
@@ -106,12 +84,15 @@ section{
     text-align: center;
     padding-right: 2.5%;
     padding-bottom: 20px;
-   } 
+} 
 #games-text{
     float:right;
     margin:0 1.5% 0 0;
 }
-
+#multiplayer-text{
+    float:right;
+    margin:0 1.5% 0 0;
+}
 .medium-images{
     height:360px;
     width: 60%;
@@ -122,38 +103,29 @@ section{
     border-radius: 25px;
 }
 #games-image{
-    float:right;
+    float: right;
 }
-
-
-    /*----This is the Style for all text boxes--*/
-    /*------------------------------------------*/
-  
-    
-    
-    
-
-
+#multiplayer-image{
+    float: right;
+}
+/*----This is the Style for all text boxes--*/
+/*------------------------------------------*/
 #enter-image {
     background: url("../images/enterimage.jpg") no-repeat center center;
     background-size: cover;
     border: 4px solid #cc7c32;
 }
-
 #games-image {
     background: url("../images/gamesimage.jpg") no-repeat center center;
     background-size: cover;
     border-radius: 25px;
     border: 4px solid #32cca5;
 }
-
-
 #family-image {
     background: url("../images/family.jpg") no-repeat center center;
     background-size: cover;
     border-radius: 25px;
     border: 4px solid #cc3232;
-    
 }
 /*----This is footer content---*/
 /*-----------------------------*/
@@ -162,31 +134,23 @@ footer {
     height: 200px;
     width:100%;
     background-color: #cc7c32;
-
-   bottom:auto;
+    bottom:auto;
     clear: both;
-
 }
 #links-box{
     height: 100px;
     width:80%;
-    background-color: black;
     margin-left: 10%;
 }
-
 .social-media {
     height: 100px;
     width:100%;
-    background-color: #32cca5;
     margin: 5% 0 0 0;
 }
-
-
 .social-media li {
     height: 60px;
     width:20%;
     margin: 0 0 0 3.8%;
-    background-color:#cc3232;
     display: inline-block;  
     text-align: center;  
 }
@@ -194,7 +158,6 @@ footer {
     font-size: 40px;
     padding: 5px;
     margin: 5% 10%;
-    
 }
 #foot-text {
     text-align: center;
@@ -202,78 +165,24 @@ footer {
     font-family: Rubik, sans-serif;
     color: #9932cc;
     font-weight: 900;
-    
-    
 }
 /*-----Game Page Content------*/
 /*---------------------------*/
-
-
-
-#retro-games-text {
-
-    padding-top: 20px;
-    padding-left: 45px;
-    border: 4px solid #9932cc;
-    text-align: center;
-    padding-right: 5%;
-    padding-bottom: 20px;   
-}
 #retro-games-image {
     background: url("../images/retro.jpeg") no-repeat center center;
     background-size: cover;
-    border: 4px solid #cc7c32;
-    
-}
-
-#multiplayer {
-    height: 350px;
-    width: 100%;
-}
-
-#multiplayer-text {
-    float: right;
-    padding-top: 20px;
-    padding-left: 20px;
-    border-radius: 25px;
-    border: 4px solid #9932cc;
-    text-align: center;
+    border: 4px solid #cc7c32;   
 }
 #multiplayer-image {
     background: url("../images/multiplayer.jpg") no-repeat center center;
     background-size: cover;
     border: 4px solid #32cca5;
 }
-
-#mini-golf {
-    height: 350px;
-    width: 100%;
-    
-    
-}
-
-#mini-golf-text {
-    width: 30%;
-    float: left;
-    
-    padding-left: 45px;
-    border-radius: 25px;
-    border: 4px solid #9932cc;
-    text-align: center;
-    position: relative;
-    
-    padding-bottom: 20px;
-}
 #mini-golf-image {
     background: url("../images/minigolf.jpeg") no-repeat center center;
-    height: 350px;
-    width: 60%;
-    float: right;
     background-size: cover;
-    border-radius: 25px;
     border: 4px solid #cc3232;
 }
-
 /*-----Form content-----*/
 /*----------------------*/
 #sign-up {
@@ -281,21 +190,17 @@ footer {
     clear: both;
     text-align: center;
 }
-
-
 input[type=text]{
     padding: 8px 0;
     width: 30%;
     margin-bottom: 40px;
 
 }
-
 input[type=email]{
     padding: 8px 0;
     width: 30%;
     margin-bottom: 40px;
 }
-
 input[type=submit]{
     background-color: #9932cc;
     left: 20;
@@ -306,35 +211,36 @@ input[type=submit]{
     margin-top: 5px;
     margin-bottom: 40px;
 }
-
 #updates {
     margin: 0 0 0 80px;
     letter-spacing: 1px;
-    
 }
 /*----Media Queries---*/
 /*-------------------*/
 @media screen and (max-width: 1300px) {
     section{
-        height:547.5px;
-        border: 2px solid red;
+        height:555.5px;
     }
     #games-text{
         float:left;
         margin:0 0 0 30%;
     }
-    .textBox{
+    #multiplayer-text{
+        float:left;
         margin:0 0 0 30%;
     }
-    
+    .text-box{
+        margin:0 0 0 30%;
+    }
     #games-image{
         float:left;
     }
-    .medium-images{
-    margin:0 0 0 19.5%;
+    #multiplayer-image{
+        float:left;
     }
-
-    
+    .medium-images{
+        margin:0 0 0 19.5%;
+    }  
 }
 
 @media screen and (max-width: 980px) {
@@ -342,8 +248,44 @@ input[type=submit]{
         margin:0 0 0 25.5%;
     }
     .medium-images{
-    margin:0 0 0 19.5%;
+         margin:0 0 0 19.5%;
     }
 }
 
     
+@media screen and (max-width: 300px) {
+    section{
+        height:25px;
+        width:100%;
+        background-color: #32cca5;
+        border:2px solid red;
+    }
+    #main-page{
+        height:400px;
+        width:100%;
+        background-color: #9932cc;
+    }
+
+    #games-text{
+        float:left;
+        margin:0 0 0 0;
+    }
+    #multiplayer-text{
+        float:left;
+        margin:0 0 0 0;
+    }
+    .text-box{
+        margin:0 0 0 0;
+        width:50px;
+    }
+    #games-image{
+        float:left;
+    }
+    #multiplayer-image{
+        float:left;
+    }
+    .medium-images{
+        margin:0 0 0 0;
+        width:100%;
+    }  
+}
