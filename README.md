@@ -1,9 +1,10 @@
 # The FunderDome
 
-The FunderDome is a gamers paradise featuring everything from retro video games to online and local  multi-player video games and even a crazy golf course. This website is targeted at families, gamers and crazy golf enthusiasts of all ages and seeks to create a hub for the local gaming community. This is achieved by showcasing all the games on offer with a simple, uniform and eye-catching design and layout. In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+The FunderDome is a gamers paradise featuring everything from retro video games to online and local  multi-player video games and even a crazy golf course. This website is targeted at families, gamers and crazy golf enthusiasts of all ages and seeks to create a hub for the local gaming community. This is achieved by showcasing all the games on offer with a simple, uniform and eye-catching design and layout.
+
+![Devices](assets/images/devicesnip.PNG)
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
  *  **Navigation Bar**
@@ -12,11 +13,15 @@ In this section, you should go over the different parts of your project, and des
 
     * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. These links are highlighted when hovered over creating improved visibility and a visual call to action.
 
+    ![Nav Bar](assets/images/navbar.PNG)
+
 *   **The landing page image**
 
     * The landing page includes a photograph of a well known retro arcade game to grab the users attention, allowing the user to instantly recognise what the site relates to. 
     
     * The landing pages contains 3 short sharp sections: an Introduction to the site and company, Selection notification section and a Community Membership and offers notification section.
+
+    ![Landing Page](assets/images/landingpage.PNG)
 
 *   **The Footer**
 
@@ -35,7 +40,9 @@ In this section, you should go over the different parts of your project, and des
 
     * This page allows users to sign up to the FunderDome membership community. 
     
-        *The user will be asked to submit their full name and email address and select whether or not they wish to receive news and offers updates by email.
+    *   The user will be asked to submit their full name and email address and select whether or not they wish to receive news and offers updates by email.
+
+        ![Sign Up Page](assets/images/signuppage.PNG)
 
 ### Features Left to Implement
 
@@ -52,15 +59,25 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 
+
+
 ### Validator Testing
 
 #### **HTML**
     
 * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
 
+[index.html validation](assets/images/indexhtmlvalidator.PNG)
+
+[games.html validation](assets/images/gameshtmlvalidator.PNG)
+
+[signup.html validation](assets/images/signuphtmlvalidator.PNG)
+
 #### **CSS**
 
 * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
+
+[css validation](assets/images/cssvalidator.PNG)
 
 ### Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.

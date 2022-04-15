@@ -203,7 +203,7 @@ input[type=email]{
 }
 input[type=submit]{
     background-color: #9932cc;
-    left: 20;
+    
     padding: 5px 15px;
     font-family: Rubik, sans-serif;
     font-weight: 600;
@@ -221,11 +221,27 @@ input[type=submit]{
     section{
         height:555.5px;
     }
+    #enter-text{
+        float:left;
+        margin:0 0 0 30%;
+    }
     #games-text{
         float:left;
         margin:0 0 0 30%;
     }
+    #family-text{
+        float:left;
+        margin:0 0 0 30%;
+    }
+    #retro-games-text{
+        float:left;
+        margin:0 0 0 30%;
+    }
     #multiplayer-text{
+        float:left;
+        margin:0 0 0 30%;
+    }
+    #mini-golf-text{
         float:left;
         margin:0 0 0 30%;
     }
@@ -244,21 +260,86 @@ input[type=submit]{
 }
 
 @media screen and (max-width: 980px) {
-    .textBox{
+   /* .textbox{
         margin:0 0 0 25.5%;
     }
     .medium-images{
          margin:0 0 0 19.5%;
+    }*/
+    section{
+        height:555.5px;
+    }
+    #enter-text{
+        float:left;
+        margin:0 0 0 5%;
+    }
+    #games-text{
+        float:left;
+        margin:0 0 0 5%;
+    }
+    #family-text{
+        float:left;
+        margin:0 0 0 5%;
+    }
+    #retro-games-text{
+        float:left;
+        margin:0 0 0 5%;
+    }
+    #multiplayer-text{
+        float:left;
+        margin:0 0 0 5%;
+    }
+    #mini-golf-text{
+        float:left;
+        margin:0 0 0 5%;
+    }
+    #enter-image{
+        float:left;
+        width: 80%;
+    }
+    #games-image{
+        float:left;
+        width: 80%;
+    }
+    #family-image{
+        float:left;
+        width: 80%;
+    }
+    #retro-games-image{
+        float:left;
+        width: 80%;
+    }
+    #multiplayer-image{
+        float:left;
+        width: 80%;
+    }
+    #mini-golf-image{
+        float:left;
+        width: 80%;
     }
 }
 
     
 @media screen and (max-width: 300px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: none; 
+        width: 300px;
+    
+    }
+    #logo {
+        float: left;
+        width: 80%;
+        margin-left: 2.5%;
+    }
     section{
         height:25px;
         width:100%;
         background-color: #32cca5;
         border:2px solid red;
+        
     }
     #main-page{
         height:400px;
@@ -268,11 +349,11 @@ input[type=submit]{
 
     #games-text{
         float:left;
-        margin:0 0 0 0;
+        margin:0 auto;
     }
     #multiplayer-text{
         float:left;
-        margin:0 0 0 0;
+        margin:0 auto;
     }
     .text-box{
         margin:0 0 0 0;
@@ -285,7 +366,7 @@ input[type=submit]{
         float:left;
     }
     .medium-images{
-        margin:0 0 0 0;
+        margin:0 auto;
         width:100%;
     }  
 }
